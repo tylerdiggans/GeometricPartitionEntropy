@@ -23,7 +23,7 @@ grid on
 xlabel('$N_i / k$','interpreter', 'latex')
 ylabel('Entropy','interpreter', 'latex')
 title(strcat("Logistic Map using k=",num2str(k)),'interpreter', 'latex')
-legend('Histogram','Quantile','Location','southeast','interpreter', 'latex')
+legend('Histogram','Quantile','KNN','Location','southeast','interpreter', 'latex')
 xlim([0 10])
 xticks([0 1:10])
 set(gca,"FontSize",11)
